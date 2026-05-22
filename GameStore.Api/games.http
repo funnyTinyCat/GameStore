@@ -1,0 +1,35 @@
+GET http://localhost:5138
+
+###
+
+GET http://localhost:5138/games
+
+###
+
+GET http://localhost:5138/games/3
+
+###
+POST http://localhost:5138/games
+Content-Type: application/json
+
+{
+    "name": "Super Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. Wonder",
+    "genre": "Platformer",
+    "price": 559.99,
+    "releaseDate": "2024-01-01"
+}
+
+###
+
+PUT http://localhost:5138/games/4
+Content-Type: application/json
+
+{
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "genre": "Action-Adventure",
+    "price": 69.99,
+    "releaseDate": "2024-05-12"
+}
+
+###
+DELETE http://localhost:5138/games/3
