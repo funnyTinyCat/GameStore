@@ -13,22 +13,22 @@ POST http://localhost:5138/games
 Content-Type: application/json
 
 {
-    "name": "Super Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. WonderSuper Mario Bros. Wonder",
-    "genre": "Platformer",
-    "price": 559.99,
-    "releaseDate": "2024-01-01"
+    "name": "Double Dragon IV",
+    "genreId": "3",
+    "price": 15.99,
+    "releaseDate": "2004-02-01"
 }
 
 ###
 
-PUT http://localhost:5138/games/4
+PUT http://localhost:5138/games/2
 Content-Type: application/json
 
 {
-    "name": "The Legend of Zelda: Tears of the Kingdom",
-    "genre": "Action-Adventure",
-    "price": 69.99,
-    "releaseDate": "2024-05-12"
+    "name": "The Red Dead Redemption 2",
+    "genreId": 2,
+    "price": 89.99,
+    "releaseDate": "2022-05-12"
 }
 
 ###
